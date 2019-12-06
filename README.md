@@ -8,3 +8,5 @@ Big thanks to :
 https://muffinman.io/uploading-files-using-fetch-multipart-form-data/ 
 
  http://www.codexworld.com 
+
+and always the help from github and stackoverflow :)
