@@ -10,4 +10,3 @@ https://muffinman.io/uploading-files-using-fetch-multipart-form-data/
 Database Driver licence :
  http://www.codexworld.com 
 
-and always the help from github and stackoverflow :)
