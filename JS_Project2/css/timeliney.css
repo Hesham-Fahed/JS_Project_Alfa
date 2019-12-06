@@ -1,0 +1,220 @@
+body {
+    margin : 0;
+    padding : 0; 
+    font-family : 'Montserrat' , sans-serif ; 
+    background-color:#fff;
+
+}
+
+.timeline{
+    position : relative ; 
+    margin : 50px auto ; 
+    padding :40px 0;
+    width : 1000px; 
+    box-sizing :border-box;
+
+}
+
+.timeline p{
+    color:black ;
+}
+
+.timeline:before {
+    content : ''; 
+    position :absolute ; 
+    left : 50%; 
+    width :2px ;
+    height :100%;
+    background: rgb(255, 217, 0);
+
+}
+
+.timeline ul {
+    margin : 0 ; 
+    padding :0;
+}
+
+.timeline ul li {
+    list-style :none ;
+    /* line-height :normal ; */
+    position : relative;
+    width : 50%;
+    padding :20px 40px ; 
+    box-sizing :border-box ; 
+
+
+    margin : 0;
+    padding :0 ; 
+    font-weight : 600 ; 
+    color : rgba(233, 33, 99,1);
+}
+
+.timeline ul li:nth-child(odd) {
+
+    float:left ; 
+    /* text-align : right ;  */
+    text-align : left ;
+    clear:both;
+}
+
+.timeline ul li:nth-child(even) {
+    float:right ; 
+    /* text-align : left ;  */
+    text-align : right ;
+    clear:both;
+
+}
+
+.content{
+    padding-bottom:20px;
+
+}
+
+.timeline ul li:nth-child(odd):before{
+    content :'';
+    position:absolute;
+    top:24px;
+    right:-6px;
+    width:10px ;
+    height:10px;
+    background:rgba(255,31,0,1);
+    border-radius : 50%;
+    box-shadow: 0 0 0 3px rgba(255,31,0,0.2);
+
+
+}
+
+.timeline ul li:nth-child(even):before{
+    content :'';
+    position:absolute;
+    top:24px;
+    left:-4px;
+    width:10px ;
+    height:10px;
+    background:rgba(255,31,0,1);
+    border-radius : 50%;
+    box-shadow: 0 0 0 3px rgba(255,31,0,0.2);
+
+
+}
+
+.timeline ul li h3 
+{
+    margin :0; 
+    padding :0;
+    font-weight : 600;
+    color : rgba(255,31,0,1);
+}
+
+.timeline ul li p 
+{
+    margin : 10px 0 0 ; 
+    padding :0;
+
+}
+
+.timeline ul li .time h4 {
+    margin:0;
+    padding :0;
+    font-size :14px;
+}
+
+.timeline ul li :nthchild(odd) .time {
+    position : absolute ; 
+    top : 12px ; 
+    right : -165px;
+    margin : 0;
+    padding : 8px 16px ;
+    background :rgba (233,33,99,1); 
+    color :#fff; 
+    border-radius: 18px;
+    box-shadow : 0 0 0 3px rgba(255,31,0,1);
+}
+
+.timeline ul li :nthchild(even) .time {
+    position : absolute ; 
+    top : 12px ; 
+    left : -165px;
+    margin : 0;
+    padding : 8px 16px ;
+    background :rgba (233,33,99,1); 
+    color :#fff; 
+    border-radius: 18px;
+    box-shadow : 0 0 0 3px rgba(255,31,0,1);
+    
+
+}
+
+
+.fadeIn-bottom{
+    top: 80%;
+  }
+
+
+  .imgtimeline{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+
+  }
+
+  .inf{
+      font-size: 12px;
+      color : rgba(233, 33, 99,1);
+  }
+
+    /* Personal */
+
+  .containerpersonal {
+    /*position: relative;
+     width: 50%; */
+    position: block;
+    width: 200px;
+  }
+  
+  .imagepersonal {
+    display: block;
+    /* width: 100%; 
+    height: auto; */
+    width: 300px;
+    height: 400px;
+    float: left;
+    
+  }
+  
+  .overlaypersonal {
+    /* position: absolute; */
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+    float:right;
+    display: block;
+  }
+  
+  .containerpersonal:hover .overlaypersonal {
+    opacity: 1;
+    
+
+
+  }
+  
+  .textpersonal {
+
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 300px;
+    height: 400px;
+  }
